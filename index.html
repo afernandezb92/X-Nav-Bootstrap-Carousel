@@ -17,14 +17,75 @@
     <p>La página web ha de usar al menos:</p>
     <ul>
       <li>Un <i>carousel</i> (con su barra de navegación)</li>
+    </ul>
+    
+     <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="http://www2.urjc.es/descargas/descargas/fondos/minimal/urjc_dsktp_minp_800x600.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Bienvenidos al Ejercicio 5.4.4</h1>
+              <p>Esta es la primera imagen del carousel</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="/home/alejandro/Aplicaciones Telemáticas/X-Nav-Bootstrap-Carousel/images/aularioII-edificio.JPG" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Bienvenidos al Ejercicio 5.4.4</h1>
+              <p>Esta es la segunda imagen del carousel</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="/home/alejandro/Aplicaciones Telemáticas/X-Nav-Bootstrap-Carousel/images/deporte-estadio.JPG" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Bienvenidos al Ejercicio 5.4.4</h1>
+              <p>Esta es la tercera imagen del carousel</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+	<ul>
       <li>Al menos dos componentes más de Boostrap (a elección del alumno)</<li>
       <li>Al menos un componente de <a href="http://www.bootsnipp.com">Bootsnipp</a></li>
     </ul>
-
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="http://getbootstrap.com/assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
